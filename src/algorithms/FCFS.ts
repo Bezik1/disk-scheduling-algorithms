@@ -1,0 +1,6 @@
+import { Request } from "../classes/Request";
+import { AlgorithmFunction } from "./AlgorithmFunction";
+
+export const FCFS: AlgorithmFunction = (requests: Request[], diskIndex: number, sectorIndex: number, trackIndex: number,) => {
+    return requests[0]
+};

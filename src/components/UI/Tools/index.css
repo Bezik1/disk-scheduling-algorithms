@@ -1,0 +1,124 @@
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+input[type='range'] {
+    overflow: hidden;
+    width: 200px;
+    -webkit-appearance: none;
+    background-color: #363636;
+}
+
+input[type='range']::-webkit-slider-runnable-track {
+    width: 200px;
+    height: 30px;
+    -webkit-appearance: none;
+    color: #13bba4;
+    margin-top: -1px;
+}
+
+input[type='range']::-webkit-slider-thumb {
+    width: 30px;
+    height: 30px;
+    -webkit-appearance: none;
+    cursor: pointer;
+    border-radius: 100%;
+    background: #434343;
+    box-shadow: -100px 0 0 80px #fff;
+}
+}
+
+.tools {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.menu-title {
+    font-size: 1.5em;
+}
+
+.menu-el-title {
+    font-size: 1.5em;
+}
+
+.menu-el-value {
+    font-size: 1.5em;
+}
+
+.menu-el {
+    font-size: 0.8em;
+    width: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-el-sub {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-el-btn {
+    transition: .5s;
+    margin-top: 5vh;
+    background-color: #363636;
+    border: 2px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    width: 75%;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.menu-activated {
+    transition: .5s;
+    transform: translateY(-5px);
+    background-color: transparent;
+    border-color: #fff;
+}
+
+.menu-el-btn:hover {
+    transition: .5s;
+    transform: translateY(-5px);
+    background-color: transparent;
+    border-color: #fff;
+}
+
+.algorithms-menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.width-limited {
+    gap: 40%;
+    justify-content: left;
+}
+
+.distance-name {
+    gap: 42%;
+    justify-content: left;
+}
+
+.algorithm-name {
+    cursor: pointer;
+}
+
+.algorithm-menu-el {
+    transition: .5s;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: #9f9f9f;
+}
+
+.algorithm-menu-el:hover {
+    transition: .5s;
+    color: #fff;
+    transform: translateY(-2.5px);
+}

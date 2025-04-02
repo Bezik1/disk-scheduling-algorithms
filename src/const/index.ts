@@ -1,0 +1,7 @@
+export const BASE_REQUEST_COUNT = 100
+export const BASE_DISK_SPLIT = 4
+export const BASE_SECTOR_SPLIT = 5
+export const BASE_TRACK_SPLIT = 15
+export const BASE_MAX_ADDRESS = BASE_DISK_SPLIT*BASE_SECTOR_SPLIT*BASE_TRACK_SPLIT
+export const BASE_HEAD_SPEED = 0.05
+export const BASE_MAX_DEADLINE = 100

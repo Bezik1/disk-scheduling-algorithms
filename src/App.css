@@ -1,0 +1,32 @@
+#root {
+  scroll-behavior: smooth;
+}
+
+.app {
+  width: 99vw;
+  height: 97vh;
+  display: flex;
+}
+
+.disks-header {
+  font-size: 4em;
+  cursor: default;
+  -webkit-text-stroke: 2px #fff;
+  transition: .5s;
+  color: transparent;
+}
+
+.left-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+}
+
+.right-container {
+  z-index: 20;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
