@@ -1,7 +1,6 @@
 import "./index.css"
 import { useEffect, useRef } from "react"
 import { Canvas } from "@react-three/fiber"
-import { Request } from "../../classes/Request"
 import DiskGroup from "../DisksGroup"
 import { Bloom, EffectComposer } from "@react-three/postprocessing"
 import { useTools } from "../../contexts/ToolsContext"

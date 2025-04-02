@@ -15,6 +15,7 @@ export class Disk {
     }
 
     public update(requests: Request[]): Disk {
+        console.log(this.maxHeadPosition)
         this.maxHeadPosition = requests.length
 
         const nextHeadPosition = this.schedulingAlgorithm.getNextHeadPosition(this.currHeadPosition, requests)

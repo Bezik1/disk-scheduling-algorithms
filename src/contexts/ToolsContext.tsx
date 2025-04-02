@@ -1,4 +1,4 @@
-import { createContext, ReactNode, useContext, useEffect, useState } from "react";
+import { createContext, ReactNode, useContext, useState } from "react";
 import { BASE_DISK_SPLIT, BASE_REQUEST_COUNT, BASE_SECTOR_SPLIT, BASE_TRACK_SPLIT } from "../const";
 import { Request } from "../classes/Request";
 
