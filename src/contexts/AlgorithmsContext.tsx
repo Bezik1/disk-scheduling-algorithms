@@ -1,9 +1,6 @@
-import { createContext, ReactNode, useContext, useEffect, useState } from "react";
-import { BASE_DISK_SPLIT, BASE_HEAD_SPEED, BASE_REQUEST_COUNT, BASE_SECTOR_SPLIT, BASE_TRACK_SPLIT } from "../const";
-import { Request } from "../classes/Request";
-import { SSTF } from "../algorithms/SSTF";
+import { createContext, ReactNode, useContext, useState } from "react";
+import { BASE_HEAD_SPEED} from "../const";
 import { AlgorithmFunction } from "../algorithms/AlgorithmFunction";
-import { SCAN } from "../algorithms/SCAN";
 import { CSCAN } from "../algorithms/CSCAN";
 
 export type Location = {

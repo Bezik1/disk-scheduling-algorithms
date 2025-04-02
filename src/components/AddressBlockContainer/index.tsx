@@ -1,4 +1,3 @@
-import { Request } from "../../classes/Request"
 import { useTools } from "../../contexts/ToolsContext"
 import "./index.css"
 
